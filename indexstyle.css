@@ -7,30 +7,29 @@
   font-family: "Poppins" sans-serif;
 }
 
-.forside {
-  align-items: center;
-  align-content: center;
-  max-width: none;
-}
 
-.heading-1 {
+h1 {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
   color: rgb(0, 69, 78);
 }
-.logo {
-  width: 78px;
-  height: 74px;
+.uclLogo {
+  width: 97px;
+  height: 75px;
 }
 
-.image-2 {
+.produktLogo{
+  width: 256px;
+  height: 169px;
   align-self: center;
-  width: 250px;
-  height: 170px;
-  margin-top: 50px;
-  margin-bottom: 125px;
 }
+
+section{
+  margin-top: 200px;
+}
+
+
 .button {
   align-self: center;
   width: 150px;
