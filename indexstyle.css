@@ -1,0 +1,79 @@
+*{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: rgb(246, 251, 250);
+  color: rgb(0, 0, 0);
+  font-family: "Poppins" sans-serif;
+}
+
+.forside {
+  align-items: center;
+  align-content: center;
+  max-width: none;
+}
+
+.heading-1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(0, 69, 78);
+}
+.logo {
+  width: 78px;
+  height: 74px;
+}
+
+.image-2 {
+  align-self: center;
+  width: 250px;
+  height: 170px;
+  margin-top: 50px;
+  margin-bottom: 125px;
+}
+.button {
+  align-self: center;
+  width: 150px;
+  margin-top: -89px;
+  margin-bottom: 0px;
+  padding: 8px 16px;
+  background: rgb(0, 69, 78);
+  border-radius: 38px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.07);
+  transition: background 0.25s ease-in-out 0s;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+.button:hover {
+  background: rgba(0, 69, 78, 0.7);
+}
+.button:active {
+  background: none;
+}
+.button:focus {
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.button-2 {
+  align-self: center;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 8px 16px;
+  background: rgb(0, 69, 78);
+  border-radius: 38px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.07);
+  transition: background 0.25s ease-in-out 0s;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+.button-2:hover {
+  background: rgba(0, 69, 78, 0.7);
+}
+.button-2:active {
+  background: none;
+}
+.button-2:focus {
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
