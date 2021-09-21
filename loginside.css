@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   font-family: "Poppins" sans-serif;
+  background-color: #F6FBFA;
 }
 
 h1 {
@@ -10,11 +11,12 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   color: #00454E;
+  font-family: Poppins;
 }
 
 .logo {
-  width: 97px;
-  height: 75px;
+  width: 90px;
+  height: 68px;
 }
 
 section{
@@ -30,7 +32,7 @@ section{
 .form-signin {
   max-width: 250px;
   padding: 15px 35px 45px;
-  background-color: #E3F1F0;
+
 }
 
   .form-signin-heading,
@@ -49,6 +51,7 @@ section{
 	  height: auto;
 	  padding: 5px;
     align-self: center;
+    background-color: #FFFF;
 	}
 
 	input[type="text"] {
@@ -71,10 +74,13 @@ section{
   transition: background 0.25s ease-in-out 0s;
   font-weight: 500;
   color: white;
-  font-size: 25px;
-  text-align: center;
 }
 
+.button p{
+  font-size: 20px;
+  text-align: center;
+  background-color: #00454E;
+}
 
 .button:hover {
   background: rgba(0, 69, 78, 0.7);
