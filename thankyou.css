@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: #F6FBFA;
-
     font-family: "Poppins" ;
   }
 
@@ -28,7 +26,7 @@
   }
 
   audio {
-    height: 500px;
+    display: none;
   }
 
   .button {
@@ -41,7 +39,7 @@
     border-radius: 38px;
     transition: background 0.25s ease-in-out 0s;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 16px;
     color: white;
     text-align: center;
   }
@@ -52,7 +50,7 @@
     background: none;
   }
 
-  .button p {
+ p {
     text-align: center;
-    font-family: poppins;
+    font-size: 20px;
   }
