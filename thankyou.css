@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     background: #F6FBFA;
-    color: rgb(0, 0, 0);
+
     font-family: "Poppins" ;
   }
 
@@ -25,4 +25,34 @@
     height: 256px;
     align-self: center;
     margin-top: 20px;
+  }
+
+  audio {
+    height: 500px;
+  }
+
+  .button {
+    align-self: center;
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 8px 16px;
+    background: rgb(0, 69, 78);
+    border-radius: 38px;
+    transition: background 0.25s ease-in-out 0s;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+  .button:hover {
+    background: rgba(0, 69, 78, 0.7);
+  }
+  .button:active {
+    background: none;
+  }
+
+  .button p {
+    text-align: center;
+    font-family: poppins;
   }
