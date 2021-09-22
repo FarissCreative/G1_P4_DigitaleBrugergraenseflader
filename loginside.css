@@ -1,3 +1,4 @@
+//* Nicole *//
 *{
   display: flex;
   flex-direction: column;
@@ -6,6 +7,8 @@
   background-color: #F6FBFA;
 }
 
+
+//* "Login" *//
 h1 {
   text-align: center;
   font-weight: 700;
@@ -14,6 +17,9 @@ h1 {
   font-family: Poppins;
 }
 
+
+//* Jonas *//
+//* UCL's eget logo *//
 .logo {
   width: 90px;
   height: 68px;
@@ -29,43 +35,46 @@ section{
   margin-bottom: 80px;
 }
 
+
+//* Nicole *//
 .form-signin {
   max-width: 250px;
   padding: 15px 35px 45px;
-
 }
 
-  .form-signin-heading,
-	.checkbox {
-	  margin-bottom: 30px;
-	}
+.form-signin-heading,
+.checkbox {
+	margin-bottom: 30px;
+}
 
-	.checkbox {
-	  font-family: poppins;
-    text-align: center;
-	}
+.checkbox {
+	font-family: poppins;
+  text-align: center;
+}
 
-  .form-control {
-	  position: relative;
-	  font-size: 16px;
-	  height: auto;
-	  padding: 5px;
-    align-self: center;
-    background-color: #FFFF;
-	}
+.form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 5px;
+  align-self: center;
+  background-color: #FFFF;
+}
 
-	input[type="text"] {
-	  margin-bottom: -1px;
-	  border-bottom-left-radius: 0;
-	  border-bottom-right-radius: 0;
-	}
+input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
 
-	input[type="password"] {
-	  margin-bottom: 30px;
-	  border-top-left-radius: 0;
-	  border-top-right-radius: 0;
-	}
+input[type="password"] {
+	margin-bottom: 30px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
 
+
+//* Jonas *//
 .button {
   align-self: center;
   width: 150px;
