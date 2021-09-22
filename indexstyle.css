@@ -17,6 +17,9 @@ h1 {
 .logo {
   width: 97px;
   height: 75px;
+  position: absolute;
+  top: -20px;
+  border: 3px solid blue;
 }
 
 .produktLogo{
