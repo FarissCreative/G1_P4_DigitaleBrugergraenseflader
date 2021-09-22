@@ -170,3 +170,19 @@ ul.separator li:last-child {
 .button-2:active {
   background: none;
 }
+
+.message {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+.avatar {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
