@@ -1,11 +1,11 @@
-//* Nicole *//
+/* Nicole */
 *{
     display: flex;
     flex-direction: column;
     width: 100%;
     font-family: "Poppins" ;
   }
-//* Jonas *//
+/* Jonas */
     .logo {
     width: 97px;
     height: 75px;
@@ -25,12 +25,12 @@
     align-self: center;
     margin-top: 20px;
   }
-//* Audio er nice to have, i øjeblikket virker den ikke i google chrome
+/* Audio er nice to have, i øjeblikket virker den ikke i google chrome
   audio {
 display: none;
   }
-*//
-//* Nicole *//
+*/
+/* Nicole */
   .button {
     align-self: center;
     width: 150px;
