@@ -2,7 +2,7 @@ console.log(myFunction);
 
 alert("Dine oplysninger er gemt");
 
-
+//Variabler og funktioner er her erklæret og tildelt, dog virker det ikke da google har sat en stopfunktion for det
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 if (!isChrome){
     $('#myAudioo').remove()
