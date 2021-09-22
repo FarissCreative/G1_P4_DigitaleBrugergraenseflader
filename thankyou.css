@@ -24,10 +24,11 @@
     align-self: center;
     margin-top: 20px;
   }
-
+//* Audio er nice to have, i øjeblikket virker den ikke i google chrome
   audio {
-    display: none;
+display: none;
   }
+*//
 
   .button {
     align-self: center;
