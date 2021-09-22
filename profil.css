@@ -7,6 +7,14 @@
   font-family: "Poppins"
 }
 
+.container{
+    position: relative;
+    width: 120px;
+    height: 150px;
+    margin: 90px auto;
+    background-color: lightseagreen;
+}
+
 
 h1 {
   text-align: center;
