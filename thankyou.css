@@ -1,10 +1,11 @@
+//* Nicole *//
 *{
     display: flex;
     flex-direction: column;
     width: 100%;
     font-family: "Poppins" ;
   }
-
+//* Jonas *//
     .logo {
     width: 97px;
     height: 75px;
@@ -29,7 +30,7 @@
 display: none;
   }
 *//
-
+//* Nicole *//
   .button {
     align-self: center;
     width: 150px;
