@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="thankyou.css">
+    <script src="thankyou.js"></script>
 </head>
 <!-- Jonas -->
 <body>
@@ -20,11 +21,15 @@
             <button class="button"> <p>Profil</p> </button>
         </section>
 
-<!-- Audio er nice to have, i øjeblikket virker den ikke i google chrome
-    <audio controls autoplay>
-    <source src="sound/applause.wav" type="audio/wav">
-    </audio>
--->
+
+        <iframe src="sound/applause.wav" allow="autoplay" style="display:none" id="myAudioo">
+        </iframe>
+ <!-- Audio er nice to have, i øjeblikket virker den ikke i google chrome-->
+ <audio id="myAudio" controls autoplay>
+   <source src="sound/applause.wav" type="audio/wav">
+ </audio>
+
+
     </main>
 </body>
 </html>
