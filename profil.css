@@ -4,7 +4,7 @@
   width: 100%;
   background: #F6FBFA;
   color: rgb(0, 0, 0);
-  font-family: "Poppins"
+  font-family: "Poppins";
 }
 
 
@@ -33,11 +33,27 @@ h1 {
   padding-bottom: 50px;
 }
 
-
-
-
 .header1 {
-  font-family: arial;
+  font-family: "Poppins";
+  font-size: 30px;
+  text-align: center;
+  color: #00454E;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+
+.header2 {
+font-family: "Poppins";
+font-size: 15px;
+text-align: center;
+color: #00454E;
+margin-top: -0px;
+
+}
+
+.header3 {
+  font-family: "Poppins";
   font-size: 15px;
   text-align: center;
   color: #00454E;
