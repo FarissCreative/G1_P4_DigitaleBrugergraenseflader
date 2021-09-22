@@ -37,7 +37,7 @@ h1 {
   font-family: "Poppins";
   font-size: 30px;
   text-align: center;
-  color: #00454E;
+  color: rgb(0, 69, 78);
   font-weight: bold;
   margin-top: -50px;
 }
@@ -47,7 +47,7 @@ h1 {
 font-family: "Poppins";
 font-size: 15px;
 text-align: center;
-color: #00454E;
+color: rgb(0, 69, 78);
 margin-top: -0px;
 
 }
@@ -56,22 +56,70 @@ margin-top: -0px;
   font-family: "Poppins";
   font-size: 15px;
   text-align: center;
+  color: rgb(0, 69, 78);
+;
+
+}
+
+.header4 {
+  font-family: "Poppins";
+  font-size: 15px;
+  text-align: center;
   color: #00454E;
 
 }
+
+.lines {
+  width: 190%;
+  height: 45px;
+  position: relative;
+  color: black;
+  background-position: center;
+}
+
+.lines::after, .lines::before{
+    content:'';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: black;
+    width: 45%;
+    top:45%;
+}
+
+.container{
+    position: relative;
+    width: 350px;
+    height: 175px;
+    margin: auto;
+    text-align: center;
+    background-color: #E3F1F0;
+  }
+
 
 
 section{
   margin-top: 200px;
   text-align: center;
+  background-color: #E3F1F0;
 }
 
-.container{
-    position: relative;
-    width: 120px;
-    height: 150px;
-    margin: 90px auto;
-    background-color: lightseagreen;
+ul.separator {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+
+}
+
+ul.separator li {
+  padding: .5em 0;
+  border-bottom: 1px solid #CCC;
+  background-color: #E3F1F0;
+}
+
+ul.separator li:last-child {
+  border-bottom: 0;
+  background-color: #E3F1F0;
 }
 
 
