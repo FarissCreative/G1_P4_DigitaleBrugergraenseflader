@@ -1,66 +1,61 @@
-//* Nicole *//
+/* Nicole */
 *{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-family: "Poppins" ;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins" ;
   }
-//* Jonas *//
-//* UCL's eget logo *//
-.logo {
-  width: 97px;
-  height: 75px;
-}
+/* Jonas */
+    .logo {
+    width: 97px;
+    height: 75px;
+  }
 
-//* "Tillykke, du er nu oprettet" *//
-h1 {
-  margin-top: 50px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  color: rgb(0, 69, 78);
-}
+/* "Tillykke, du er nu oprettet" */
+  h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 69, 78);
+  }
 
-//* Eget design confirmation logo *//
-.produktLogo{
-  width: 256px;
-  height: 256px;
-  align-self: center;
-  margin-top: 20px;
-}
-//* Audio er nice to have, i øjeblikket virker den ikke i google chrome
+/* Eget design confirmation logo */
+  .produktLogo{
+    width: 256px;
+    height: 256px;
+    align-self: center;
+    margin-top: 20px;
+  }
+/* Audio er nice to have, i øjeblikket virker den ikke i google chrome
   audio {
 display: none;
   }
-*//
+*/
+/* Nicole */
+  .button {
+    align-self: center;
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 8px 16px;
+    background: rgb(0, 69, 78);
+    border-radius: 38px;
+    transition: background 0.25s ease-in-out 0s;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  .button:hover {
+    background: rgba(0, 69, 78, 0.7);
+  }
+  .button:active {
+    background: none;
+  }
 
-
-//* Nicole *//
-//* Knap der fører en videre til profil, denne skal linkes *//
-.button {
-  align-self: center;
-  width: 150px;
-  margin-top: 100px;
-  margin-bottom: 0px;
-  padding: 8px 16px;
-  background: rgb(0, 69, 78);
-  border-radius: 38px;
-  transition: background 0.25s ease-in-out 0s;
-  font-weight: 500;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-}
-
-.button:hover {
-  background: rgba(0, 69, 78, 0.7);
-}
-.button:active {
-  background: none;
-}
-
-//* Tekst paragraph inde i knappen (den er stylet for sig for at fjerne baggrund) *//
-p {
-  text-align: center;
-  font-size: 20px;
-}
+/* Tekst paragraph inde i knappen (den er stylet for sig for at fjerne baggrund) */
+ p {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+  }
