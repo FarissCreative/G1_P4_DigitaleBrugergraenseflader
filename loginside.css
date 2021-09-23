@@ -4,7 +4,6 @@
   width: 100%;
   font-family: "Poppins";
   background-color: #F6FBFA;
-  
 }
 
 h1 {
@@ -34,7 +33,7 @@ section{
 
 
 .form-signin {
-  max-width: 200px;
+  max-width: 300px;
   padding: 15px 40px 40px;
 }
 
@@ -91,4 +90,15 @@ input[type="password"] {
 }
 .button:active {
   background: none;
+}
+
+@media (min-width: 1300px){
+  .wrapper {
+    align-items: center;
+  }
+
+.logo {
+  display: block;
+  float: left;
+  }
 }
