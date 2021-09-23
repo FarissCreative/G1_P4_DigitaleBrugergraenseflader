@@ -12,6 +12,7 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   color: rgb(0, 69, 78);
+  padding: auto;
 }
 
 .logo {
@@ -29,7 +30,7 @@ h1 {
   width: 175px;
   height: 175px;
   align-self: center;
-  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .header1 {
@@ -37,20 +38,17 @@ h1 {
   font-size: 30px;
   text-align: center;
   font-weight: bold;
-  margin-top: -50px;
 }
 
 
 .header2 {
-font-family: "Poppins";
-font-size: 15px;
-text-align: center;
-color: lightseagreen;
-margin-top: -40px;
-padding: -50px;
-font-weight: lighter;
-
+  font-family: "Poppins";
+  font-size: 15px;
+  text-align: center;
+  margin-top: -40px;
+  font-weight: lighter;
 }
+
 
 .header3 {
   font-family: "Poppins";
@@ -59,18 +57,19 @@ font-weight: lighter;
   color: rgb(0, 69, 78);
   padding-right: 40px;
   padding-left: 40px;
-
+  padding-bottom: 20px;
+  margin: 10px;
 }
 
 
-}
 
 .lines {
   width: 190%;
-  height: 45px;
+  height: 50px;
   position: relative;
   color: black;
   background-position: center;
+
 }
 
 .lines::after, .lines::before{
@@ -90,8 +89,7 @@ font-weight: lighter;
     margin: auto;
     text-align: center;
     background-color: #E3F1F0;
-  }
-
+}
 
 
 section{
@@ -100,12 +98,13 @@ section{
   background-color: #E3F1F0;
 }
 
+
 ul.separator {
   list-style: none;
   padding: 0;
   width: 100%;
-
 }
+
 
 ul.separator li {
   padding: .5em 0;
@@ -171,38 +170,37 @@ ul.separator li:last-child {
 }
 
 .message {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
-  margin-left:220px;
-  margin-top: 35px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-left:220px;
+    margin-top: 35px;
 
-}
+  }
 
-.avatar {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
-  margin-left: 110px;
-  margin-top: -40px;
+  .avatar {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 40px;
+    margin-left: 110px;
+    margin-top: -40px;
 }
 
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: #555;
+  background-color: #00454E;
   height: 500px;
   color: white;
-  border-radius: 10px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #00454E;
   position: relative;
 }
 
@@ -211,27 +209,28 @@ ul.separator li:last-child {
 }
 
 .topnav a {
-  color: white;
-  padding: 14px 16px;
+  color: #00454E;
+  padding: 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   display: block;
+  text-align: right;
 }
 
 .topnav a.icon {
-  background: black;
+  background: #F6FBFA;
   display: block;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 25px;
+  top: 10;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #F6FBFA;
+  color: #F6FBFA;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #F6FBFA;
   color: white;
 }
