@@ -3,8 +3,7 @@
   flex-direction: column;
   width: 100%;
   background: #F6FBFA;
-  color: rgb(0, 0, 0);
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins";
 }
 
 
@@ -35,16 +34,12 @@ section{
 .button {
   align-self: center;
   width: 150px;
-  margin-top: -89px;
-  margin-bottom: 0px;
-  padding: 8px 16px;
   background: rgb(0, 69, 78);
   border-radius: 38px;
   transition: background 0.25s ease-in-out 0s;
   font-weight: 500;
-  font-size: 25px;
   color: white;
-  text-align: center;
+
 }
 .button:hover {
   background: rgba(0, 69, 78, 0.7);
@@ -53,24 +48,8 @@ section{
   background: none;
 }
 
-.button-2 {
-  align-self: center;
-  width: 150px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding: 8px 16px;
-  background: rgb(0, 69, 78);
-  border-radius: 38px;
-  transition: background 0.25s ease-in-out 0s;
-  font-weight: 500;
-  font-size: 25px;
-  color: white;
+.button p{
+  font-size: 20px;
   text-align: center;
+  background-color: #00454E;
 }
-.button-2:hover {
-  background: rgba(0, 69, 78, 0.7);
-}
-.button-2:active {
-  background: none;
-}
-
