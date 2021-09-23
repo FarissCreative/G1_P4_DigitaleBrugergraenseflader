@@ -7,4 +7,3 @@ function myFunction() {
     x.style.display = "block";
   }
 }
-</script>
