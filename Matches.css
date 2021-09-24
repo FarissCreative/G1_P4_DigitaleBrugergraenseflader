@@ -1,0 +1,140 @@
+*{
+    display: flex;
+    flex-direction: column;
+    background: #F6FBFA;
+    font-family: "Poppins";
+  }
+
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 69, 78);
+    margin-top: 80px;
+  }
+
+.ikoner {
+  margin-top: 180px;
+}
+
+  .message {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-left:220px;
+    margin-top: 35px;
+
+  }
+
+  .avatar {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin-left: 110px;
+    margin-top: -40px;
+  }
+
+
+  .box-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+    }
+
+  .afsnit{
+    color: #00454E;
+    font-size: 20px;
+  }
+
+  .box1,.box2,.box3,.box4,.box5,.box6{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .box1{
+    background-image: url("images/uifaces/ven1.jpeg");
+  }
+
+  .box2{
+    background-image: url("images/uifaces/ven2.jpg");
+  }
+
+  .box3{
+    background-image: url("images/uifaces/ven3.jpg");
+  }
+
+  .box4{
+    background-image: url("images/uifaces/ven4.jpg");
+  }
+
+  .box5{
+    background-image: url("images/uifaces/ven5.jpg");
+  }
+
+  .box6{
+    background-image: url("images/uifaces/ven6.jpg");
+  }
+
+  /* knappen der fører videre til næste html side med portfolio  */
+  .box1 p,
+  .box2 p,
+  .box3 p
+  .box4 p,
+  .box5 p,
+  .box6 p,{
+    color: #00454E;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+    display: inline-block;
+  }
+
+  .box1 p:hover,
+  .box1 p:focus {
+    color: #007281;
+    transform: scale(1.1);
+  }
+
+  .box2 p:hover,
+  .box2 p:focus {
+    color: #007281;
+    transform: scale(1.1);
+  }
+
+  .box3 p:hover,
+  .box3 p:focus {
+    color: #007281;
+    transform: scale(1.1);
+  }
+
+  .box4 p:hover,
+  .box4 p:focus {
+    color: #007281;
+    transform: scale(1.3);
+  }
+  .box5 p:hover,
+  .box5 p:focus {
+    color: #007281;
+    transform: scale(1.3);
+  }
+  .box6 p:hover,
+  .box6 p:focus {
+    color: #007281;
+    transform: scale(1.3);
+  }
+
+  .linkbox {
+    text-decoration: none;
+  }
