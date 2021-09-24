@@ -86,7 +86,6 @@ h1 {
     position: relative;
     width: 350px;
     height: 180px;
-    margin: auto;
     text-align: center;
     background-color: #E3F1F0;
 }
@@ -117,12 +116,15 @@ ul.separator li:last-child {
   background-color: #E3F1F0;
 }
 
+.ikoner {
+  margin-top: 20px;
 
+}
 .comments {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 42px;
+    height: 50px;
     width: 42px;
     margin-left: 215px;
     margin-top: 35px;
