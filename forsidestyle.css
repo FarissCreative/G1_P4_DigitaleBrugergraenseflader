@@ -13,6 +13,11 @@ h1 {
   font-size: 40px;
   color: rgb(0, 69, 78);
 }
+
+.nav {
+  margin-bottom: 40px;
+}
+
 .logo {
   width: 97px;
   height: 75px;
