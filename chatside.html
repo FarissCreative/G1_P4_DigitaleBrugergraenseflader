@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <script type="text/javascript" src="chat.js" defer></script>
+    <!--font awsome-->
+    <script src="https://kit.fontawesome.com/60631067d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="msger">
+        <header class="msger-header">
+            <!--insert logo here if needed-->
+            <i class="fas fa-arrow-left"></i>
+            <!--insert link tag to navigate back to previous page-->
+        </header>
+
+        <p class="solid">Testfriend</p>
+        <hr class="solid">
+        <main class="msger-chat">
+
+            <!--User-->
+            <div class="msg right-msg">
+                <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)">
+                </div>
+
+
+                <div class="msg-bubble">
+                    <div class="msg-info">
+                        <div class="msg-info-name">user</div>
+                        <div class="msg-info-time">xx:xx</div>
+                    </div>
+
+                    <div class="msg-text">
+                        <div><span id="user"></span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg left-msg">
+                <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)">
+                </div>
+                <!--chatbot-->
+                <div class="msg-bubble">
+                    <div class="msg-info">
+                        <div class="msg-info-name">Testfriend</div>
+                        <div class="msg-info-time">xx:xx</div>
+                    </div>
+
+                    <div class="msg-text">
+                        <div><span id="chatbot"></span></div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!--inputbox-->
+        <div class="msger-inputarea">
+            <div id="main">
+
+                <input id="input" type="text" placeholder="say anything..." autocomplete="off" />
+                <i class="fas fa-grin"></i>
+                <button id="sendbtn" onclick="submit();"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
