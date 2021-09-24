@@ -1,3 +1,7 @@
+*{
+ font-family: "Poppins";
+}
+
 .logo {
     width: 4rem;
     height: 4rem;
@@ -9,15 +13,18 @@
     text-align: center;
     background-color: #f6fbfa;
     color: #00454e;
+    font-family: "Poppins";
 }
 
 .would-you-rather h1 {
     color: #00454e;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 .would-you-rather .quiz-button .txt{
     color: #00454e;
+    font-family: "Poppins";
 }
 
 .would-you-rather .info {
@@ -27,6 +34,7 @@
     padding-bottom: 2vh;
     margin-bottom: 1vh;
     box-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.096);
+    font-family: "Poppins";
 }
 
 .would-you-rather .content {
@@ -35,6 +43,7 @@
     padding-bottom: 1rem;
     height: 65vh;
     color: #00454e;
+    font-family: "Poppins";
 
 }
 
@@ -44,6 +53,7 @@
     width: 20vh;
     margin: 2vw;
     background-color: #00454e;
+    font-family: "Poppins";
     
 }
 
@@ -72,6 +82,7 @@
 .would-you-rather #end-answers .final-answer {
     color: white;
     font-size: 20px;
+    font-family: "Poppins";
 }
 
 .bottom-button {
@@ -83,6 +94,7 @@
     width: 5rem;
     color: white;
     font-size: 15px;
+    font-family: "Poppins";
 }
 
 @media (max-width: 600px) {
@@ -91,5 +103,6 @@
         width: 60vw;
         color: white;
         font-size: 20px;
+        font-family: "Poppins";
     }
 }
