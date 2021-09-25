@@ -1,3 +1,4 @@
+// Nicole og jonas
 console.log(myFunction);
 
 alert("Dine oplysninger er gemt");
