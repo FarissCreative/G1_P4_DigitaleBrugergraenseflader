@@ -11,7 +11,8 @@
     font-weight: 700;
     font-size: 40px;
     color: rgb(0, 69, 78);
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 70px;
   }
 
 .ikoner {
@@ -94,10 +95,11 @@
   /* knappen der fører videre til næste html side med portfolio  */
   .box1 p,
   .box2 p,
-  .box3 p
+  .box3 p,
   .box4 p,
   .box5 p,
-  .box6 p,{
+
+  .box6 p{
     color: #00454E;
     font-size: 16px;
     text-decoration: none;

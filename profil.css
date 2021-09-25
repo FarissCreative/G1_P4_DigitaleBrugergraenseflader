@@ -30,7 +30,7 @@ h1 {
   width: 175px;
   height: 175px;
   align-self: center;
-  padding-top: 50px;
+  padding-top: 36px;
 }
 
 .header1 {
@@ -120,25 +120,29 @@ ul.separator li:last-child {
   margin-top: 20px;
 
 }
-.comments {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 42px;
-    margin-left: 215px;
-    margin-top: 35px;
-  }
 
-  .avatar {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 38px;
-    width: 38px;
-    margin-left: 100px;
-    margin-top: -40px;
+
+.comments {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 42px;
+  margin-left: 215px;
+  margin-top: 35px;
 }
+
+.avatar {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+
 
 .mobile-container {
   max-width: 480px;

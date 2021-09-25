@@ -18,7 +18,8 @@
 
 .would-you-rather h1 {
     color: #00454e;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
+    font-weight: 700;
 }
 
 
@@ -86,15 +87,16 @@
 }
 
 .bottom-button {
-    margin-top: 1rem;
-    margin-left: 45%;
-    border-radius: 2em;
-    background-color: #00454e;
-    height: 2rem;
-    width: 5rem;
+    align-self: center;
+    width: 150px;
+    background: rgb(0, 69, 78);
+    border-radius: 38px;
+    transition: background 0.25s ease-in-out 0s;
     color: white;
-    font-size: 15px;
-    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 600px) {
