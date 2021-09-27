@@ -8,8 +8,8 @@ let endContent;
 
 let questions = [
     { question: "question 1", answers: ["Night in", "Night out"] },
-    { question: "question 2", answers: ["Kældedyr", "Ikke kældedyr"] },
-    { question: "question 3", answers: ["alkohol", "Ikke alkohole"] },
+    { question: "question 2", answers: ["Kæledyr", "Ikke kæledyr"] },
+    { question: "question 3", answers: ["Alkohol", "Ikke alkohol"] },
     { question: "question 4", answers: ["Sport", "Ikke sport"] },
     { question: "question 5", answers: ["Film", "Serie"] },
     { question: "question 5", answers: ["Vinter", "Sommer"] },
